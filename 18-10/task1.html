@@ -8,69 +8,82 @@
 </head>
 <body>
 
-    <form>
+    <form >
      <fieldset>
-      <legend>RegForm </legend>
-      <div>
-      <label for="name">Name</label>&emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; 
-      <input type="text" id="name" name="name" value="" placeholder="Enter Name Here"><br>
-    </div>
-      <label for="PASS">Password</label> &emsp13;&emsp13; &emsp13; 
-      <input type="password" id="pass" name="pass" value="" placeholder="Enter Password Here"><br>
-
-      <div>
-      <label for="email">Email:</label>&emsp13; &emsp13; &emsp13; &emsp13; &emsp13; 
-      <input type="email" id="email" name="email" value="" placeholder="Enter Email Here"><br>
-    </div>
-      <div>
-      <label for="date">Date</label>&emsp13; &emsp13; &emsp13; &emsp13; &emsp13; &emsp13; 
-      <input type="date" id="date" name="date" value="" placeholder="dd-mm-yyyy"><br>
-    </div>
-      <div>
-      <label for="no">PhoneNo</label>&emsp13; &emsp13; &emsp13; 
-      <input type="number" id="no" name="no" value="no" minlength="10"><br>
-    </div>
-      <div>
-      <label for="file">SelectFile</label>&emsp13; &emsp13; &emsp13; 
-      <input type="file" id="file" name="file" value="file"><br>
-    </div>
+      <legend align="center">RegForm </legend>
       
-<div>
-    <label >Gender</label>&emsp13; &emsp13; &emsp13;
-    <input type="radio" id="male" name="gender" value="Male">
-    <label for="male">male</label>
-    <input type="radio" id="Femail" name="gender" value="Femail">
-    <label for="Female">Female</label>
-</div>
+      
+      <table  align="center">
+     <tr>
+      <th>
+      <label for="name">Name</label> </th>
+      <td> <input type="text" id="name" name="name" value="" placeholder="Enter Name Here">
+    </td>
+     </tr>
+<tr>
+<th>
+  <label for="PASS">Password</label>  </th>
+  <td><input type="password" id="pass" name="pass" value="" placeholder="Enter Password Here">
+</td>
+</tr>
 
-<div>
-    <label >Language</label>&emsp13; &emsp13; &emsp13;
-    <input type="checkbox" id="H" name="H" value="H">
-    <label for="H">Hindi</label>
-    <input type="checkbox" id="E" name="E" value="E">
-    <label for="E">English</label>
-</div>
+<tr>
+<th> <label for="email">Email:</label> </th>
+<td> <input type="email" id="email" name="email" value="" placeholder="Enter Email Here">
+</tr>
 
-<div>
-    <label for="course">Course</label>&emsp13; &emsp13; &emsp13;
-    <select "course" name="course" id="course">
-    <datalist id="course">
-      <option value="CSS">CSS</option>
-      <option value="JS">JS</option>
-      <option value="HTML">HTML</option>
-    </datalist><br><br>
-    </select>
-</div>
-<br>
-<div>
+<tr>
+  <th>  <label for="date">Date</label></th>
+ <td><input type="date" id="date" name="date" value="" placeholder="dd-mm-yyyy"></td> 
+</tr>
 
- <label> Comment</label>
-    <textarea rows="4" cols="20" placeholder="write your comment"></textarea>
-</div>
-<DIV>
-    <button type="submit"  value="Submit">RegisterNOW</button>
-    <button type="submit"  value="Submit">Refresh</button>
-</DIV>
+<tr>
+  <th><label for="no">PhoneNo</label></th>
+<td> <input type="number" id="no" name="no" value="no" minlength="10"></td>  
+</tr>
+
+<tr>
+  <th><label for="file">SelectFile</label></th>
+  <td> <input type="file" id="file" name="file" value="file"></td>
+</tr>
+<tr>
+  <th>  <label >Gender</label></th> 
+<td> <input type="radio" id="male" name="gender" value="Male">
+<label for="male">male</label></td>
+<td><input type="radio" id="Femail" name="gender" value="Femail">
+<label for="Female">Female</label></td>
+</tr>
+<tr>
+  <th> <label >Language</label></th>
+  <td>  <input type="checkbox" id="H" name="H" value="H">
+  <label for="H">Hindi</label></td>
+  <td>  <input type="checkbox" id="E" name="E" value="E">
+  <label for="E">English</label></td>
+</tr>
+
+  <tr>
+      <th> <label for="course">Course</label></th>
+      <td>  <select "course" name="course" id="course">
+            <datalist id="course">
+              <option value="CSS">CSS</option>
+              <option value="JS">JS</option>
+              <option value="HTML">HTML</option>
+            </datalist>
+            </select>
+      </td>
+  </tr>
+
+
+  <tr>
+<th> <label> Comment</label></th>
+<td> <textarea rows="4" cols="20" placeholder="write your comment"></textarea></td>
+  </tr>
+    
+<tr>
+  <td> <button type="submit"  value="Submit">RegisterNOW</button></td>
+  <td><button type="submit"  value="Submit">Refresh</button></td>
+</tr>    
+</table>
      </fieldset>
     </form>
 </body>
