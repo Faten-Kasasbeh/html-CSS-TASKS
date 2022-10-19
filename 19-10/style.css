@@ -1,0 +1,20 @@
+.blue-txt-bg{
+    background-color: #b7d1ea;
+    color: blue;
+    font-weight: bold;
+    font-size:larger;
+}
+.blue-txt{
+color:blue ;
+}
+#table{
+  margin: 0%;
+}
+.background{
+    background-color: gray;
+}
+
+.bold-blue{
+    color:blue;
+    font-weight: bold;
+}
