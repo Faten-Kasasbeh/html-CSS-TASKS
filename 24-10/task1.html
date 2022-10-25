@@ -11,16 +11,32 @@
     font-weight: bold; 
     font-size:xx-large;
      font-style:normal;
-     width: 70px;
     height: 650;
     text-align: center;
+    width: 100%;
 }
 #main{
     border: 15px solid  rgb(230, 170, 23);
-    width: 630px;
+
     height: 700px;
     display: flex;
     flex-wrap: nowrap;
+}
+@media only screen and (min-device-width:0px) and (max-device-width :480px){
+   #main{ display: grid;
+    grid-template-columns:auto;
+    border: 5px solid  rgb(230, 170, 23);
+margin: 10px;}
+}
+@media only screen and (min-device-width :481px) and (max-device-width :768px){
+#main {
+    border: 10px solid  rgb(230, 170, 23);
+    display: grid;
+    grid-template-columns:auto auto;
+    margin: 10px;
+}
+
+
 }
     </style>
 </head>
